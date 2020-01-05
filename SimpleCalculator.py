@@ -114,7 +114,7 @@ def r4b3_clicked():
     elif op=="/":
         x=int(temp.split("/")[1])
         if x==0:
-            val="Zero error"
+            result="Zero error"
         else:
             result=result//x
     val=str(result)
